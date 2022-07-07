@@ -14,7 +14,7 @@ const db = require('./repository');
 // create the server
 const app = express();
 
-// the backend server will parse json, not a form request
+// the backend server will parse json, not a form request - test comment
 app.use(bodyParser.json());
 
 // allow AJAX calls from 3rd party domains
